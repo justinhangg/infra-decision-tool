@@ -11,7 +11,7 @@ function askCidr(label) {
       const cidr = parseInt(match[1], 10);
       if (cidr >= 16 && cidr <= 30) return cidr;
     }
-    console.log('  Invalid CIDR. Enter a number between /16 and /30.');
+    console.log('  That CIDR isnt allowed. Use a value from /16 to /30.');
   }
 }
 
